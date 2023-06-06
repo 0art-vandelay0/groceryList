@@ -15,3 +15,7 @@ button {
     background-color: #af4c98;
     color: aliceblue;
 }
+
+.hidden {
+    display: none;
+}
