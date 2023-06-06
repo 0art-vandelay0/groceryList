@@ -5,8 +5,14 @@ function handleForm(event) {
     const userGroceriesArray = Array.from(userGroceries);
 
     const resulth2 = document.createElement("h2");
-    resulth2.append("Your Groceries List");
+    resulth2.append("Your Groceries List:");
     document.body.append(resulth2);
+    userGroceriesArray.sort()
+    console.log(userGroceriesArray);
+
+    // userGroceriesArray.sort();
+    // const newArray = []
+    // newArray.push(userGroceriesArray);
 
     userGroceriesArray.forEach(function(grocery) {
         newUl = document.createElement("ul");
